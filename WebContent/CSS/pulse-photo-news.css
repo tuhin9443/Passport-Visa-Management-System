@@ -1,0 +1,43 @@
+
+
+#gallery {
+	clear:both;
+	position:relative; width:970px;
+	height:350px; border:2px double #286E87;
+	text-align:left;
+	
+}
+	#gallery a {
+		float:left;
+		position:absolute;
+	}
+	
+	#gallery a img {
+		border:none;
+	}
+	
+	#gallery a.show {
+		z-index:500
+	}
+
+	#gallery .caption {
+		z-index:600; 
+		background-color:#39393a; 
+		color:#fff; 
+		height:50px; 
+		width:100%; 
+		position:absolute;
+		bottom:0;
+	}
+
+	#gallery .caption .content1 {
+		margin:4px
+	}
+	
+	#gallery .caption .content1 h3 {
+		margin:0;
+		padding:0;
+		color:#39393a;
+	}
+	
+
